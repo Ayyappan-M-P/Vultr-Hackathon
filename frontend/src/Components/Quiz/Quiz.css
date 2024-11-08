@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Anek Malayalam", sans-serif;
+  background: #ebd9b4;
+  color: #11052c;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0 30px;
+}
+
+.quiz-container {
+  max-width: 500px;
+  min-width: 250px;
+  background: #f9efdb;
+  border-radius: 20px;
+  margin-top: 70px;
+  padding: 30px 60px;
+}
+
+.quiz-container .active-question-no {
+  font-size: 32px;
+  font-weight: 500;
+  color: #9dbc98;
+}
+
+.quiz-container .total-question {
+  font-size: 16px;
+  font-weight: 500;
+  color: #638889;
+}
+
+.quiz-container h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.quiz-container ul {
+  margin-top: 20px;
+  margin-left: -40px;
+}
+
+.quiz-container ul li {
+  text-decoration: none;
+  list-style: none;
+  color: #2d264b;
+  font-size: 16px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  padding: 11px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.quiz-container ul .selected-answer {
+  background: #9dbc98;
+  border: 1px solid #638889;
+}
+
+.quiz-container button {
+  background: #d37676;
+  border-radius: 9px;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 42px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.quiz-container button:disabled {
+  background: #e7e8e9;
+  color: #9fa3a9;
+  cursor: not-allowed;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.result h3 {
+  font-size: 24px;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+
+.result p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.result p span {
+  color: #800080;
+  font-size: 22px;
+}
+
+.rating-answer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  gap : 10px
+}
+
+
+.selected-circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  border: 1px solid #638889;
+  background: #9dbc98;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  border: 1px solid #638889;
+}
+
+.quiz-category{
+  font-size: 48px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.quiz-result-ex{
+display: flex;
+
+text-align: center;
+justify-content: space-between;
+
+
+}
+
+.quiz-result-desc{
+  text-align: center;
+  font-size: 24px;
+  color: #9dbc98;
+}
+
+.nc{
+  color: #d37676;
+}
+.quiz-result-buttons{
+
+  display: flex;
+  gap:100px;
+}

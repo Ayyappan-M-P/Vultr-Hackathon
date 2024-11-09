@@ -19,12 +19,22 @@ const Login = () => {
   const handleSubmit = async (e) => {
     // e.preventDefault();
     // try {
+      // const response = await axios.post('http://localhost:5000/api/students', formData);
+      // console.log('Student added:', response.data);
+      // // Reset form after successful submission
+      // setFormData({ name: '', age: '', department: '' });
+      // // Navigate to Landing page after submission
+    // e.preventDefault();
+    // try {
     //   const response = await axios.post('http://localhost:5000/api/students', formData);
     //   console.log('Student added:', response.data);
     //   // Reset form after successful submission
     //   setFormData({ name: '', age: '', department: '' });
       // Navigate to Landing page after submission
       navigate('/landing');
+    // } catch (error) {
+    //   console.error('There was an error adding the student!', error);
+    // }
     // } catch (error) {
     //   console.error('There was an error adding the student!', error);
     // }

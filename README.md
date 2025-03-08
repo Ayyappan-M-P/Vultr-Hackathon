@@ -15,8 +15,6 @@ The AI based career counseling (CareerX) is a comprehensive resource designed to
 | Name    | Email           |
 |---------|-----------------|
 
-| I Ashwin Kumar | ashwinkumari.cse2022@citchennai.net |
-| Abishek S H | abisheksh.cse2022@citchennai.net |
 | Ayyappan MP | ayyappanmp.cse2022@citchennai.net |
 
 <div style="display: flex; flex-wrap: wrap;">
